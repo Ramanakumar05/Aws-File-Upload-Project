@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import cors from 'cors'
 
-const API_URL = "http://localhost:3000"; // ✅ Use this during local development
+const API_URL = "http://localhost:3000";
 
 function App() {
   const [file, setFile] = useState(null);
